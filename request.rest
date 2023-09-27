@@ -11,10 +11,20 @@ POST http://localhost:3001/api/persons HTTP/1.1
 content-type: application/json
 
 {
-	"name": "rash",
+	"name": "bruh",
 	"number": "003-200241"
 }
 
 ###
 
-DELETE  http://localhost:3001/api/persons/5 HTTP/1.1
+PUT http://localhost:3001/api/persons/650c101f9ec99a4da856202c HTTP/1.1
+content-type: application/json
+
+{
+	"name": "Arto Hellas",
+	"number": "000-000000"
+}
+
+###
+
+DELETE  http://localhost:3001/api/persons/651068fd7c6970480ba1462b HTTP/1.1
