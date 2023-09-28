@@ -1,13 +1,13 @@
-GET http://localhost:3001/api/persons/1 HTTP/1.1
+GET http://localhost:3001/api/people/1 HTTP/1.1
 
 ###
 
-GET http://localhost:3001/api/persons HTTP/1.1
+GET http://localhost:3001/api/people HTTP/1.1
 
 
 ###
 
-POST http://localhost:3001/api/persons HTTP/1.1
+POST http://localhost:3001/api/people HTTP/1.1
 content-type: application/json
 
 {
@@ -17,7 +17,7 @@ content-type: application/json
 
 ###
 
-PUT http://localhost:3001/api/persons/650c101f9ec99a4da856202c HTTP/1.1
+PUT http://localhost:3001/api/people/650c101f9ec99a4da856202c HTTP/1.1
 content-type: application/json
 
 {
@@ -27,4 +27,4 @@ content-type: application/json
 
 ###
 
-DELETE  http://localhost:3001/api/persons/651068fd7c6970480ba1462b HTTP/1.1
+DELETE  http://localhost:3001/api/people/651068fd7c6970480ba1462b HTTP/1.1
