@@ -11,20 +11,33 @@ POST http://localhost:3001/api/people HTTP/1.1
 content-type: application/json
 
 {
-	"name": "bruh",
-	"number": "003-200241"
+	"name": "brooo it's work",
+	"number": "0X3-2XXXXXX1",
+	"userId": "652c25d33c524b43925aecb3"
 }
 
 ###
 
-PUT http://localhost:3001/api/people/650c101f9ec99a4da856202c HTTP/1.1
+POST http://localhost:3001/api/users HTTP/1.1
 content-type: application/json
 
 {
-	"name": "Arto Hellas",
+    "username": "rash0x6964",
+    "name": "rash",
+    "password": "salainen"
+}
+
+
+###
+
+PUT http://localhost:3001/api/people/65144a5aa509f07c26ef28bc HTTP/1.1
+content-type: application/json
+
+{
+	"name": "yey updateed",
 	"number": "000-000000"
 }
 
 ###
 
-DELETE  http://localhost:3001/api/people/651068fd7c6970480ba1462b HTTP/1.1
+DELETE  http://localhost:3001/api/people/652c288635a1f929443a5d3d HTTP/1.1

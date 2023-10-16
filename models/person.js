@@ -3,6 +3,10 @@ const mongoose = require("mongoose")
 const personSchema = new mongoose.Schema({
   name: String,
   number: String,
+  user: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'User'
+  }
 })
 
 personSchema.set("toJSON", {
